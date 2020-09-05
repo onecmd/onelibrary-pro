@@ -435,7 +435,7 @@ export default defineConfig({
   theme: {
     // ...darkTheme,
     'primary-color': defaultSettings.primaryColor,
-    'layout-header-background': '#124191',
+    'layout-header-background': defaultSettings.layoutHeaderBackground,
     'layout-trigger-background': '#2a5caa',
     // 'layout-sider-background': '#43639c',
     // 'menu-item-active-bg': '#afb4db',

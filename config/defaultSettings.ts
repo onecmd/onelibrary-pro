@@ -2,12 +2,14 @@ import { Settings as ProSettings } from '@ant-design/pro-layout';
 
 type DefaultSettings = ProSettings & {
   pwa: boolean;
+  layoutHeaderBackground: String;
 };
 
 const proSettings: DefaultSettings = {
   navTheme: 'light',
   // 拂晓蓝
   primaryColor: '#2a5caa',
+  layoutHeaderBackground: '#181d4b',
   layout: 'mix',
   contentWidth: 'Fluid',
   fixedHeader: false,
